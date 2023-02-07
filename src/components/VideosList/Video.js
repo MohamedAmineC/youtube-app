@@ -11,7 +11,7 @@ const Video = (props) => {
                         </div>
                         <div className="video-content">
                             <div className="author-profile">
-                                <img src={video.authorUrl} alt={video.author} title={video.author} />
+                                <img src={video.authorProfile} alt={video.author} />
                             </div>
                             <div className="video-info">
                                 <h3>{video.title}</h3>

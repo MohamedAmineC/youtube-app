@@ -41,7 +41,7 @@ const RightMenu = () => {
         url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         img: 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
         author: 'he is the author',
-        authorProfile: 'https://images.unsplash.com/photo-1517594632980-535c0c33173d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80',
+        authorProfile: 'https://images.unsplash.com/photo-1457449940276-e8deed18bfff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
         authorUrl:'https://www.youtube.com/@stalkerna2437',
         vues: '8.2k',
         date: '4 heures',
