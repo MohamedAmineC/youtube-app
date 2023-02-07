@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 :root{
     font-size: 16px;
 }
 body{
     margin: 0;
-    background-color: #0F0F0F;
-    color: #FFF;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
 }
 img{
     max-width: 100%;
@@ -20,29 +18,9 @@ ul{
     margin: 0;
     padding: 0;
 }
-
-/* ========================= Header ================================*/
-header {
-    height: 4rem;
-    width: 100%;
-    background-color: #0F0F0F;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
 }
-header .left-menu>a>img{
-    height: 3rem;
-}
-header>div {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-header>.login>ul{
-    display: flex;
-    align-items: center;
+p{
+    margin: 0;
 }

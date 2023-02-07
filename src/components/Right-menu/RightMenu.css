@@ -1,0 +1,38 @@
+#column-2{
+    overflow: hidden;
+}
+#category-menu {
+    position: relative;
+}
+#category-menu ul{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 0;
+}
+#category-menu ul li{
+    padding: 0.5rem;
+    background: #e4e2e2;
+    border-radius: 0.5rem;
+    width: fit-content;
+    white-space: nowrap;
+    color: rgb(91, 91, 91);
+}
+#category-menu ul a.active li{
+    background-color: #000;
+    color: #FFF;
+
+}
+#category-menu #next{
+    position: absolute;
+    top: 25%;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-content: center;
+    right: 1rem;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color: #CCCCCC;
+}
