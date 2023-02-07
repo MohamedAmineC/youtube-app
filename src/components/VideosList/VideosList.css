@@ -1,0 +1,58 @@
+#video-list{
+    padding-inline: 2rem ;
+    margin-block: 2rem;
+}
+.video{
+    width: 25rem;
+    border-radius: 1rem;
+    transition: all 400ms linear;
+    z-index: 100;
+}
+.video:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 1px 5px grey;
+}
+.video .video-thumbnail{
+    position: relative;
+}
+.video .video-thumbnail img{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.video .video-thumbnail p{
+    position: absolute;
+    bottom: 2%;
+    padding: 0.5rem;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    font-weight: bold;
+}
+.video .video-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.video .video-content .author-profile{
+    width: 10%;
+}
+.video .video-content .author-profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.video .video-content .video-info{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+}
+.video .video-content .video-info :is(p,a){
+    color: #727272;
+}
+.video .video-content .video-info h3{
+    font-weight: 600;
+}

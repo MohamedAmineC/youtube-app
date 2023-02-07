@@ -1,5 +1,5 @@
 #column-2{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 #category-menu {
     position: relative;
