@@ -43,3 +43,8 @@
 #nav-menu.visible ul li.active{
     background-color: #e4e2e2;
 }
+@media screen and (max-width:610px) {
+    #nav-menu{
+        display: none;
+    }
+}

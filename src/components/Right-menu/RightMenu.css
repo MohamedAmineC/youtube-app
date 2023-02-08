@@ -36,3 +36,8 @@
     font-size: 1.25rem;
     color: #CCCCCC;
 }
+@media screen and (max-width:610px) {
+    #category-menu ul{
+        padding: 1rem;
+    }
+}

@@ -8,6 +8,7 @@ const Video = (props) => {
                         <div className="video-thumbnail">
                             <img src={video.img} alt={video.title} />
                             <p className="length">{video.length}</p>
+                            <p className="hover">Maintenez la souris sur la vidéo pour lancer la lecture</p>
                         </div>
                         <div className="video-content">
                             <div className="author-profile">

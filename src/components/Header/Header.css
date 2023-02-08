@@ -7,6 +7,7 @@ header {
     height: 56px;
     padding: 0 1rem;
     box-sizing: border-box;
+    gap: 1rem;
 }
 header>div{
     display: flex;
@@ -103,7 +104,13 @@ header #right-menu #login{
     align-items: center;
     gap: 0.5rem;
     color: #065FD4;
+    white-space: nowrap;
 }
 :is(header>div>i){
     cursor: pointer;
+}
+@media screen and (max-width:630px) {
+    header #right-menu{
+        display: none;
+    }
 }
