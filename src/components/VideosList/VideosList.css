@@ -9,7 +9,7 @@
 }
 .video{
     width: 25rem;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     transition: all 400ms linear;
     background-color: white;
     z-index: 10;
@@ -24,8 +24,8 @@
     height: 270px;
 }
 .video .video-thumbnail img{
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
 }
 .video .video-thumbnail p{
     position: absolute;
