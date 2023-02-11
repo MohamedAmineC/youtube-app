@@ -3,12 +3,11 @@
     margin-block: 2rem;
 }
 #video-list ul{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1rem;
 }
 .video{
-    width: 25rem;
     border-radius: 0.75rem;
     transition: all 200ms ease-in 1s;
     background-color: white;
@@ -22,6 +21,10 @@
 .video .video-thumbnail{
     position: relative;
     height: 270px;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .video .video-thumbnail img{
     border-top-right-radius: 0.75rem;
@@ -75,8 +78,45 @@
 .video .video-content .video-info h3{
     font-weight: 600;
 }
-@media screen and (max-width: 1000px) {
+.video-info-hover{
+    gap: 1rem;
+    padding: 0 1rem 1rem;
+    align-items: center;
+    display: none;
+    opacity: 0;
+    transition: all 200ms ease-out 1s;
+}
+.video-info-hover>div{
+    width: 50%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    background-color: #e4e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #000;
+}
+.video:hover .video-info-hover{
+    display: flex;
+    opacity: 1;
+}
+@media screen and (max-width: 930px) {
     #video-list ul{
-        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width: 600px) {
+    #video-list{
+        padding-inline: 4rem;
+    }
+    #video-list ul{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 450px) {
+    #video-list{
+        padding-inline: 1rem;
     }
 }
